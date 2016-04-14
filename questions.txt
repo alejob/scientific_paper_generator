@@ -1,0 +1,49 @@
+#Fill the survey
+
+###INTRO###
+#Problem description.
+
+#What is the problem that you are trying to solve?
+
+#Is there any solutions to your problem?, if there are, mention it.
+
+##If there are not, why are you trying to solve it?, why there aren't?
+
+#why is better your solution? or what it improve? or what new thing it deliver?
+
+#Describe your paper organization, ie, what content each section. CHECK
+
+
+###Material and Method###
+
+#Describe your method
+
+#Describe examples CHECK
+
+
+###Results###
+#What did you find?
+
+
+###Discussion###
+Can you interpret your result?, what they mean?
+
+if there is an hypothesis, is it proved?
+
+Why it is proved?, or why it is not proved?
+
+What is a possible scope of your research?
+
+What an other experiment could you do?
+
+
+###Conclusion###
+###Give a very short answer to each question###
+#What did you do?
+
+#what your experiment show?
+
+
+
+
+
