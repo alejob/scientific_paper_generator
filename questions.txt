@@ -3,6 +3,8 @@
 ###INTRO###
 #Problem description.
 
+#What is the area you are working on and why it is important?
+
 #What is the problem that you are trying to solve?
 
 #Is there any solutions to your problem?, if there are, mention it.
@@ -41,7 +43,7 @@ What an other experiment could you do?
 ###Give a very short answer to each question###
 #What did you do?
 
-#what your experiment show?
+#what does your experiment show?
 
 
 
