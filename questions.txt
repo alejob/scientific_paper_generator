@@ -5,6 +5,8 @@
 
 #What is the area you are working on and why it is important?
 
+#OPTIONAL: What motivated you to develop/investigate this?
+
 #What is the problem that you are trying to solve?
 
 #Is there any solutions to your problem?, if there are, mention it.
@@ -13,17 +15,27 @@
 
 #why is better your solution? or what it improve? or what new thing it deliver?
 
+#Your results
+
+#Your conclusions
+
+##Last paragraph##
 #Describe your paper organization, ie, what content each section. CHECK
 
 
 ###Material and Method###
 
-#Describe your method
+#Describe your method in 2 lines
+
+#Describe the tools that you use (mathematical, computational, laboratory, machines, etc). Enumerate them.
+
+#Describe, if you used it, the analisis tools that you used.
 
 #Describe examples CHECK
 
 
 ###Results###
+#If you are devoloping a new tools/implementation, maybe you should mix Results and Discussion
 #What did you find?
 
 
