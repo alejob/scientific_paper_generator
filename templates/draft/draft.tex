@@ -1,0 +1,145 @@
+\documentclass[aip,pop,reprint]{revtex4-1}
+%% change reprint -> preprint for one-column draft
+
+\usepackage{graphicx}
+\usepackage{color}
+
+
+% \usepackage[notcite, notref]{showkeys}  %% labels
+% \usepackage{url,hyperref}
+
+%% comment next line to remove numerated lines
+\usepackage{lineno} \linenumbers        %% enumerate lines
+
+
+%\draft % marks overfull lines with a black rule on the right
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%% Title of the article
+\title{ A nice title}
+
+%% Authors
+\author{First}
+\email{first-email@somewhere.asd} 
+\affiliation{first-affiliation}
+
+\author{Second}
+\affiliation{second-affiliation }
+
+\author{Third} 
+\author{Fourth} 
+\affiliation{third and fourth affiliations}
+\affiliation{Another affiliation}
+
+\date{\today}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+  A nice abstract
+\end{abstract}
+
+\pacs{52.25.Dg, 95.30.Qd, 52.35.Hr, 96.50.Ci}
+\keywords{Spontaneous Electromagnetic Fluctuations, Fluctuation-Dissipation
+  Theorem, Solar Wind, Drift}
+
+\maketitle 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+A nice introduction.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Some section}
+\label{sc:asd}
+
+Figures at the end of the draft.
+
+Equations:
+\begin{equation}
+  \langle E_j(t) \rangle = \frac{\sum_{\alpha} \int dx f_{\alpha}
+  E_j}{\sum_{\alpha} \int dx f_{\alpha}} \,. \label{average}
+\end{equation}
+%
+
+Two-coloumn equations:
+\begin{widetext}
+  \begin{equation}
+    \label{promt}
+    \langle E_j(t) \rangle = \sum_{\alpha} \left[ \langle
+      E_j(t)\rangle_{\alpha} + \sum_\ell \langle \Delta h_\ell(0)
+      E_j(t)\rangle_\alpha^{(\ell)} - \langle E_j(t) \rangle_{\alpha}
+      \sum_{\beta,\ell} \langle \Delta h_\ell(0) \rangle_\beta^{(\ell)} \right]\,.
+  \end{equation}
+\end{widetext}
+%
+
+Aligned equations
+\begin{eqnarray}
+  \langle A(t) \rangle_{\alpha} &=& \frac{\int dx F_{\alpha}
+  A}{\sum_{\beta} \int dx F_{\beta}} \,,
+  \\
+  \langle A(t) \rangle_\alpha^{(\ell)} &=& \frac{\int dx
+  (\partial F_\alpha/\partial H_\ell) A}{\sum_{\beta} \int dx F_{\beta}} \,.
+  \label{ave_Fal}
+\end{eqnarray}
+
+
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Summary}
+\label{sc:summary}
+An appropriate summary.
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{acknowledgments}
+  This project has been financially supported by someone.
+\end{acknowledgments}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% References
+% \bibitem{Chotoo2000}
+% K.~Chotoo, N.~A.~Schwadron, G.~M.~Mason, T.~H.~Zurbuchen,
+% G.~Gloeckler, A.~Posner, L.~A.~Fisk, A.~B.~Galvin, D.~C.~Hamilton, and
+% M.~R.~Collier, J.~Geophys.~Res. {\bf 105}, 23107 (2000).
+
+% \bibliographystyle{physrev}
+% \bibliography{fluctuations,books,Zfunction,kappa,linear_theory,tsallis,heating,kinetic_instabilities,space_observations,quasilinear_theory,simulations,mathematics}
+\begin{thebibliography}{10}
+
+\bibitem{Callen1951}
+H.~B. Callen and T.~Welton, Phys.~Rev. {\bf 83}, 34 (1951).
+
+\bibitem{Silin1959}
+V.~P. Silin, Radiofizika (U.S.S.R.) {\bf 2}, 198 (1959).
+\end{thebibliography}
+
+
+
+
+
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% fig 1
+\begin{figure}[h!]
+  \centering 
+  %  \includegraphics[width=.48\textwidth]{fig1}
+  \caption{(color online) Description of the figure. }
+  \label{fig1}
+\end{figure}
+
+\end{document}
+
+% ****** End of file draft.tex ******
