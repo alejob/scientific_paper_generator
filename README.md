@@ -23,13 +23,13 @@ User's manual
 -------------
 To create your paper use:
 
-make paper_format
+`make paper_format`
 
-where paper_format is the chosen format. The output will be saved
-in output directory
+where _paper_format_ is the chosen format. The output will be saved
+in _output_ directory
 
 Ex:
 
-make draft 
+`make draft` 
 
-create draft.pdf in output directory.
+creates _draft.pdf_ in _output_ directory.
