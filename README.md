@@ -15,4 +15,21 @@ Any suggest and improve is accepted.
 Dependencies
 ------------
 texlive
+
 texlive-humanities
+
+
+User's manual
+-------------
+To create your paper use:
+
+make paper_format
+
+where paper_format is the chosen format. The output will be saved
+in output directory
+
+Ex:
+
+make draft 
+
+create draft.pdf in output directory.
